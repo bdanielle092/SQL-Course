@@ -10,16 +10,8 @@ Carnival would like to create a stored procedure that handles the case of updati
 ### Returning a Vehicle
 Carnival would also like to handle the case for when a car gets returned by a customer. When this occurs they must add the car back to the inventory and mark the original sales record as *returned = True*.
 
-Carnival staff are required to do an oil change on the returned car before putting it back on the sales floor. In our stored procedure, we must also log the oil change within the OilChangeLog table. Use the SQL below to create the OilChangeLogs table.
+Carnival staff are required to do an oil change on the returned car before putting it back on the sales floor. In our stored procedure, we must also log the oil change within the OilChangeLog table.
 
-```sql
-create table OilChangeLogs (
-  oil_change_log_id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-  date_occured timestamp with time zone,
-  vehicle_id int,
-  FOREIGN KEY (vehicle_id) REFERENCES Vehicles (vehicle_id)
-);
-```
 
 ### Goals
 
