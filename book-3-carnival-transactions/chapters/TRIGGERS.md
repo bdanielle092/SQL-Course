@@ -39,7 +39,7 @@ Our first step is to define our trigger function. The keyword `NEW` allows us to
 ```sql
 CREATE FUNCTION set_pickup_date() 
   RETURNS TRIGGER 
-  LANGUAGE PGPLSQL
+  LANGUAGE PlPGSQL
 AS $$
 BEGIN
   -- trigger function logic
