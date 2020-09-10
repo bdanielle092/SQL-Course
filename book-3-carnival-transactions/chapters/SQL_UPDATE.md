@@ -37,4 +37,4 @@ WHERE customer_id = 67;
 
 ## Practice: Sales
 
-A Sales associate needs to update a sales record because her customer want so pay wish Mastercard instead of American Express. Update Customer, *Layla Igglesden* Sales record which has an invoice number of *2781047589*.
+A Sales associate needs to update a sales record because her customer want to pay with a Mastercard instead of American Express. Update Customer, *Layla Igglesden* Sales record which has an invoice number of *2781047589*.
