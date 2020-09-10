@@ -69,4 +69,4 @@ Try setting up the same trigger in your database and then adding a new sales rec
 ## Practice: Carnival
 
 1. Create a trigger for when a new Sales record is added, set the purchase date to 3 days from the current date.
-1. Create a trigger for updates to the Sales table. If the pickup date is on or before the purchase date, set the pickup date to 7 days after the purchase date. If the pickup date is less than 7 days out from the purchase date, add 4 additional days to the pickup date.
+1. Create a trigger for updates to the Sales table. If the pickup date is on or before the purchase date, set the pickup date to 7 days after the purchase date. If the pickup date is after the purchase date but less than 7 days out from the purchase date, add 4 additional days to the pickup date.
