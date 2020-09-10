@@ -45,7 +45,9 @@ BEGIN
   -- trigger function logic
   UPDATE sales
   SET pickup_date = NEW.purchase_date + integer '7'
-  WHERE sales.sales_id = NEW.sales_id;
+  WHERE sales.sale_id = NEW.sale_id;
+  
+  RETURN NULL;
 END;
 $$
 ```
