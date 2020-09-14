@@ -10,7 +10,7 @@ After reading this chapter, doing the exercises, and engaging in discussion with
 
 ## Read/Watch Before Class
 
-1. [Creating a Stored Procedure](https://www.youtube.com/watch?v=NdpniWg-KFg)
+1. [Creating a Stored Procedure](https://www.youtube.com/watch?v=0-XhNH8Vd5c)
 2. [PosgreSQL CREATE Procedure tutorial](https://www.postgresqltutorial.com/postgresql-create-procedure/)
 3. [Intro to Stored Procedures](https://www.geeksforgeeks.org/postgresql-introduction-to-stored-procedures/)
 4. [CREATE PROCEDURE Documentation](https://www.postgresql.org/docs/11/sql-createprocedure.html)
