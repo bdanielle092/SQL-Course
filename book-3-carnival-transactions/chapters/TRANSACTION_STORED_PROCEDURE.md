@@ -8,6 +8,8 @@ What happens when we put the two together?
 
 ## Resources to Browse Before Class
 
+- [An Overview of the New Stored Procedures in PostgreSQL 11](https://severalnines.com/database-blog/overview-new-stored-procedures-postgresql-11#:~:text=Traditionally%2C%20PostgreSQL%20has%20provided%20all,or%20open%20a%20new%20one.)
+- [PostgreSQL Transaction Management](https://www.postgresql.org/docs/11/plpgsql-transactions.html)
 - [Managing Transactions in SQL Server Stored Procedures](https://www.4guysfromrolla.com/webtech/080305-1.shtml)
 - [Transaction in stored procedure in SQL Server](http://techfunda.com/howto/192/transaction-in-stored-procedure)
 - [An Overview of Stored Procedures in PostgreSQL](https://severalnines.com/database-blog/overview-new-stored-procedures-postgresql-11#:~:text=Traditionally%2C%20PostgreSQL%20has%20provided%20all,or%20open%20a%20new%20one.)
