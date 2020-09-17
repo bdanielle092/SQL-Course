@@ -5,8 +5,6 @@
 - [SQL Indexes](https://www.youtube.com/watch?v=fsG1XaZEa78)
 - [Understanding Indexes](https://www.youtube.com/watch?v=8oBKA4hU4xM)
 - [PosgreSQL Indexes](http://postgresguide.com/performance/indexes.html)
-- [DELETE CASCADE Tutorial](https://kb.objectrocket.com/postgresql/how-to-use-the-postgresql-delete-cascade-1369)
-- [PosgreSQL DELETE with JOINS](https://www.postgresqltutorial.com/postgresql-delete-join/)
 
 <br>
 
