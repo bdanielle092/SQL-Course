@@ -1,7 +1,5 @@
 # Indexes
 
-Introduction to indexes. Chapter explains the concepts. Shows how to add an index. Shows how it speeds up execution.
-
 ## Resources to browse before class
 
 - [SQL Indexes](https://www.youtube.com/watch?v=fsG1XaZEa78)
