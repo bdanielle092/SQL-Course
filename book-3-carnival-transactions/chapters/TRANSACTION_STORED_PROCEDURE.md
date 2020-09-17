@@ -56,7 +56,7 @@ commit;
 end;$$
 ```
 
-Remember the transaction from the last chapter? We created a customer record and then created a sales record associated with that customer. Let's put that transaction into a stored procedure.
+Remember the transaction from the last chapter? We created a customer record and then created a sales record associated with that customer. Let's put that transaction into a stored procedure. This time, our new customer buys two vehicles and therefore we have two inserts for the Sales table.
 
 ```sql
 CREATE OR REPLACE PROCEDURE new_customer_new_sale()
@@ -88,3 +88,7 @@ $$;
 
 CALL new_customer_new_sale();
 ```
+
+When you run this, you will notice that you get an error. That's because the second insert is missing a value for `payment_method`. But because of the two commits before that statment, the new customer record and the first sales record still gets created.
+
+How is this different from a stored procedure that doesn't contain a transaction? Try taking out the two `COMMIT` statements and see the change in behavior.
