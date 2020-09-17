@@ -7,7 +7,7 @@ A trigger is a user-defined function that is executed when a specific action occ
 - [Introduction to PostgreSQL Trigger](https://www.postgresqltutorial.com/introduction-postgresql-trigger/)
 - [PostgreSQL CREATE TRIGGER](https://www.postgresqltutorial.com/creating-first-trigger-postgresql/)
 - [PostgreSQL Triggers Explained](https://www.tutorialspoint.com/postgresql/postgresql_triggers.htm)
-- [Video: Triggers in SQL][Video: Triggers in SQL](https://www.youtube.com/watch?v=f6VWSlnHGCE)
+- [Video: Triggers in SQL](https://www.youtube.com/watch?v=f6VWSlnHGCE)
 - [Video: SQL Triggers](https://www.youtube.com/watch?v=gpthfJnvzY8)
 - [Learning about DML Triggers](https://www.sqlservercentral.com/articles/learning-about-dml-triggers#:~:text=This%20article%20covers%20DML%20triggers,statements%20used%20to%20manipulate%20data.&text=DDL%20triggers%20are%20triggers%20that,Definition%20Language%20statements%20are%20fired.)
 
