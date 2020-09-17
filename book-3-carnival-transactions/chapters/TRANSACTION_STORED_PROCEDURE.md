@@ -29,6 +29,8 @@ Examples of where transactional stored procedures would be used:
 
 ### Examples of Transactional Stored Procedures 
 
+Let's look at an example where we are adding a new grade for a student and the recalculating their average.
+
 ```sql
 create or replace procedure student_add_score(
    student_id int,
@@ -40,6 +42,8 @@ begin
     -- Adding a new record into the grades table 
     insert into studentgrades(student_id, score) 
     values (student_id, score)
+    
+commit;
 
     -- Calculating and updating the students new average score
     update students 
@@ -49,7 +53,38 @@ begin
         where student_id = student_id
     ) 
     where student_id = student_id;
-
-    commit;
 end;$$
+```
+
+Remember the transaction from the last chapter? We created a customer record and then created a sales record associated with that customer. Let's put that transaction into a stored procedure.
+
+```sql
+CREATE OR REPLACE PROCEDURE new_customer_new_sale()
+LANGUAGE plpgsql
+AS $$
+DECLARE 
+  NewCustomerId integer;
+  CurrentTS date;
+BEGIN
+	INSERT INTO customers(first_name,last_name,email,phone,street,city,state,zipcode,company_name)
+		VALUES
+		('BILL','Simlet','r.simlet@remves.com','615-876-1237','77 Miner Lane','San Jose','CA','95008','Remves') 
+		RETURNING customer_id INTO NewCustomerId;
+
+COMMIT;
+
+	CurrentTS = CURRENT_DATE;
+
+	INSERT INTO sales(sales_type_id,vehicle_id,employee_id,customer_id,dealership_id,price,deposit,purchase_date,pickup_date,invoice_number,payment_method)
+		VALUES(1,1,1,NewCustomerId,1,24333.67,6500,CurrentTS,CurrentTS + interval '7 days',1273592747, 'solo');
+		
+COMMIT;
+		
+	INSERT INTO sales(sales_type_id,vehicle_id,employee_id,customer_id,dealership_id,price,deposit,purchase_date,pickup_date,invoice_number,payment_method)
+		VALUES(1,1,1,NewCustomerId,1,24333.67,6500,CurrentTS,CurrentTS + interval '7 days',1273592747);
+
+END;
+$$;
+
+CALL new_customer_new_sale();
 ```
