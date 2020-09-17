@@ -13,6 +13,4 @@ In this book you will learn fundamental techniques to improve performance.
 | 3 | [Resource Monitoring](./chapters/MONITORING.md) |
 | 4 | [Design Evaluation and Denormalization](./chapters/DENORMALIZE.md) |
 | 5 | [Indexes](./chapters/INDEXES.md) |
-| 6 | [Sales by Dealership Improvement](./chapters/SALES_INDEX.md) |
-| 7 | [Inventory Age Improvement](./chapters/INVENTORY_INDEX.md) |
 | 👨‍👨‍👦‍👦 | **_Team Project: Carnival Reports Performance_** |
