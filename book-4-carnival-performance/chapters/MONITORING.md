@@ -22,7 +22,7 @@ You monitor the number of queries, the frequency of when queries are happening, 
 
 ### Database Locks
 
-There is a situation where a query is waiting on another query that this effects the performance of your database.
+There is a situation where a query is waiting on another query that effects the performance of your database.
 
 ### Monitoring Backups
 
