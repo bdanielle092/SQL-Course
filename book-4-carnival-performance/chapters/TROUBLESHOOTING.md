@@ -15,7 +15,7 @@ Most of you are familiar with the term troubleshooting. It essentially means to 
 
 ## Monitoring
 
-Monitoring the performance of your database is a best way to identify if there are issues that we need to troubleshoot. There are a few tools that come with PostgreSQL for this purpose.
+Monitoring the performance of your database is the best way to identify if there are issues that we need to troubleshoot. There are a few tools that come with PostgreSQL for this purpose.
 
 ## Database Design
 
