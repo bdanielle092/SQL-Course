@@ -12,7 +12,7 @@ Carnival has decided to reevaluate their database and see if they can optimize t
 7. Transactions
 8. Indexing
 9. Data migrations
-10. Normalizing the database further
+10. Normalizing the database further vs denormalizing
 
 
 
