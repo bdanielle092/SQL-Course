@@ -13,6 +13,7 @@ Indexes are how we optimize our database. We use them to make retrieving data fa
 
 Enter, Indexes! Indexes improve the time it takes to find records. Instead of looking through ALL records, indexes allow us to search much like with indexes in the back of a book. Book indexes tend to be alphabetized making it easier for the search process. The same is true with creating an index in SQL. The data is sorted making it easier to find, it now only needs to look for records that start with "C" or "Co" or "Coo" and the search is narrowed down thus making it faster. This is all happening behind the scenes and is not usually visible to the user.
 
+Indexes typically make siginificant improvements on larger databases where large datasets can take longer to query.
 
 ## Creating an index
 Creating an index is done using the `CREATE INDEX` statement. We will want to specify a meaningful name for our index, usually including the field name(s) we are applying the index to.
