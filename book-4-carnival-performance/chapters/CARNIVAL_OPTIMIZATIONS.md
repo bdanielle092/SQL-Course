@@ -7,7 +7,7 @@ Carnival has decided to reevaluate their database and see if they can optimize t
 2. Altering exsiting tables
 3. Drop statements
 4. Views
-5. Triggers (Formamting data or ensuring new related records get created)
+5. Triggers (Formatting data or ensuring new related records get created)
 6. Stored Procedures that group functionality
 7. Transactions
 8. Indexing
