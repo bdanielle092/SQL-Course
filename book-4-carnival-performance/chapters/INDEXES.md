@@ -9,9 +9,9 @@
 <br>
 
 ## Why Indexes?
-Indexes are how we optimize our database. We use them to make retrieving data faster and efficient. Imagine a table with 2 million of student records. If we were to query all students with the last name, "Cooper" in the Students table we would initiate a retrieval of all those students records. The problem begins in the the time it takes to search for the records with "Cooper". The database will search all 2 million records until it finds all occurrences of "Cooper". This is time consuming and can be resource intensive. 
+Indexes are how we optimize our database. We use them to make retrieving data faster and efficient. Imagine a table with 2 million student records. If we were to query all students with the last name, "Cooper" in the Students table we would initiate a retrieval of all those students records. The problem begins in the the time it takes to search for the records with "Cooper". The database will search all 2 million records until it finds all occurrences of "Cooper". This is time consuming and can be resource intensive. 
 
-Enter, Indexes! Indexes improve the time it takes to find records. Instead of looking through ALL records, indexes allow us to search much like with indexes in the back of a book. Book indexes tend to be alphabetized making it easier for the search process. The same is true with creating an index in SQL. The data is sorted making it easier to find, it now only needs to look for records that start with "C" or "Co" or "Coo" and the search is narrowed down ths making it faster. This is all happening behind the scenes and is not usually visible to the user.
+Enter, Indexes! Indexes improve the time it takes to find records. Instead of looking through ALL records, indexes allow us to search much like with indexes in the back of a book. Book indexes tend to be alphabetized making it easier for the search process. The same is true with creating an index in SQL. The data is sorted making it easier to find, it now only needs to look for records that start with "C" or "Co" or "Coo" and the search is narrowed down thus making it faster. This is all happening behind the scenes and is not usually visible to the user.
 
 
 ## Creating an index
