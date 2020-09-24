@@ -1,6 +1,6 @@
 # Carnival Database Optimizations
 
-Carnival has decided to reevaluate their database and see if they can optimize the existing structure and improve query performance times. This team project is designed for your team to analyze the entire database and create a .SQL script file that will execute the improvements to make the databse better. Expect to discuss your team's improvements and why you made them. Please draw on all the knowledge you have gotten from this course to implement your ideas!
+Carnival has decided to reevaluate their database and see if they can optimize the existing structure and improve query performance times. This team project is designed for your team to analyze the entire database and create a .SQL script file that will execute the improvements to make the database better. Expect to discuss your team's improvements and why you made them. Please draw on all the knowledge you have gotten from this course to implement your ideas!
 
 ## Things you might find useful
 1. Creating tables
