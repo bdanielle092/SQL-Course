@@ -1,17 +1,39 @@
 # Exploring the Data in Google Sheets
 
-The data is provided for us for Carnival currently exists in the form of CSVs for Comma Separated Values files. Take a look at all the CSVs and how the data is currently organized.
+The data provided for us for Carnival currently exists in the form of CSVs for Comma Separated Values files. First let's take a look at all the CSV screenshots below and how the data is currently organized.
 
-- [Sales](./data/Sales.csv)
-- [Sales Types](./data/SalesType.csv)
-- [Vehicles](./data/Vehicles.csv)
-- [Vehicle Types](./data/VehicleType.csv)
-- [Customers](./data/Customers.csv)
-- [Dealerships](./data/Dealerships.csv)
-- [Employees](./data/Employees.csv)
-- [Employee Types](./data/EmployeeType.csv)
-- [Dealership Employees](./data/DealershipEmployees.csv)
 
+### Sales table
+<img src="./images/sales.png">
+
+### SalesTypes table
+<img src="./images/sales_types.png" width=160>
+
+### Vehicles table
+<img src="./images/vehicles.png">
+
+### VehicleTypes table
+<img src="./images/vehicle_types.png" width=350>
+
+### Customers table
+<img src="./images/customers.png">
+
+### Dealerships table
+<img src="./images/dealerships.png" width=720>
+
+### Employees table
+<img src="./images/employees.png" width=600>
+
+### EmployeesTypes table
+<img src="./images/employee_types.png" width=210>
+
+### DealershipEmployees table
+<img src="./images/dealership_employees.png" width=330>
+
+### RepairTypes table
+<img src="./images/repair_types.png" width=250>
+
+<br><br>
 
 Each CSV contains one kind of data that is being tracked by the dealerships on the Carnival platform.
 

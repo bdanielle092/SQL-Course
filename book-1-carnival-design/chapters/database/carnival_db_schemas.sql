@@ -38,8 +38,8 @@ create table Employees (
 
 create table DealershipEmployees (
   dealership_employee_id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-  employee_id INT,
   dealership_id INT,
+  employee_id INT,
   FOREIGN KEY (employee_id) REFERENCES Employees (employee_id),
   FOREIGN KEY (dealership_id) REFERENCES Dealerships (dealership_id)
 );
@@ -102,16 +102,16 @@ create table OilChangeLogs (
   FOREIGN KEY (vehicle_id) REFERENCES Vehicles (vehicle_id)
 );
 
+create table RepairTypes (
+  repair_type_id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  name VARCHAR(50)
+);
+
 create table CarRepairTypeLogs (
   car_repair_type_log_id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
   date_occured timestamp with time zone,
   vehicle_id int,
   repair_type_id INT,
   FOREIGN KEY (vehicle_id) REFERENCES Vehicles (vehicle_id),
-  FOREIGN KEY (repair_type_id) REFERENCES RepairTypes (repair_type_id),
-);
-
-create table RepairTypes (
-  repair_type_id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-  name VARCHAR(50)
+  FOREIGN KEY (repair_type_id) REFERENCES RepairTypes (repair_type_id)
 );
