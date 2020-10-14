@@ -27,7 +27,7 @@ Ideally we want to find a balance between normalization and denormalization. We 
 
 ## Practice: Carnival
 
-1. One of the main parts of our database that we normalized was Vehicles, Vehicle Body Types, Makes and Models. Create a new table for the denormalized data and import [the data](book-1-carnival-design/chapters/data/Vehicles.csv). Use EXPLAIN to evaluate the performance costs of reads and writes for the normalized data and the denormalized data.
+1. One of the main parts of our database that we normalized was Vehicles, Vehicle Body Types, Makes and Models. Create a new table for the denormalized data and import Vehicles.csv. Use EXPLAIN to evaluate the performance costs of reads and writes for the normalized data and the denormalized data.
 
 - How often do you think we will be performing reads and writes for this data?
 - Is it worth denormalizing the data? If so, why?

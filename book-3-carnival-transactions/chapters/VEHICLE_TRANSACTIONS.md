@@ -6,4 +6,4 @@ Write transactions to handle the following scenarios:
 
 1. For the CX-5s and CX-9s in the inventory that have not been sold, change the year of the car to 2021 since we will be updating our stock of Mazdas. For all other unsold Mazdas, update the year to 2020. The newer Mazdas all have red and black interiors.
 
-1. The vehicle with VIN `YV4852CT5B1628541` has been brought in for servicing. Document that the service department did a tire change, windshield wiper fluid refill and an oil change.
+1. The vehicle with VIN `KNDPB3A20D7558809` has been brought in for servicing. Document that the service department did a tire change, windshield wiper fluid refill and an oil change.

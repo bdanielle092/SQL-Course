@@ -87,6 +87,6 @@ It's not always a desirable affect to delete other table's records when we delet
 
 
 ## Practice - Employees
-1. A sales employee at carnival creates a new sales record for a sale they are trying to close. The customer, last minute decided not to purchase the vehicle. Help delete the Sales record with an invoice number of '7628231837'.
+1. A sales employee at carnival creates a new sales record for a sale they are trying to close. The customer, last minute decided not to purchase the vehicle. Help delete the Sales record with an invoice number of '2436217483'.
 2. An employee was recently fired so we must delete them from our database. Delete the employee with employee_id of 35. What problems might you run into when deleting? How would you recommend fixing it?
  

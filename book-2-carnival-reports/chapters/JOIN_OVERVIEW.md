@@ -98,7 +98,7 @@ Else, the right join creates a new row that contains columns from both tables. H
 
 ## Practice: Carnival
 
-1. Get a list of the sales that was made for each sales type.
+1. Get a list of the sales that were made for each sales type.
 1. Get a list of sales with the VIN of the vehicle, the first name and last name of the customer, first name and last name of the employee who made the sale and the name, city and state of the dealership.
 1. Get a list of all the dealerships and the employees, if any, working at each one.
 1. Get a list of vehicles with the names of the body type, make, model and color.
