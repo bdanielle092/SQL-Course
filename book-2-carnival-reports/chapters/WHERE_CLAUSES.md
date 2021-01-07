@@ -128,4 +128,4 @@ WHERE
 1. Get a list of sales where the purchase date is within the last two years.
 1. Get a list of sales where the deposit was above 5000 or the customer payed with American Express.
 1. Get a list of employees whose first names start with "M" or ends with "E".
-1. Get a list of employees whose phone numbers have the 6040 area code.
+1. Get a list of employees whose phone numbers have the 604 area code.
