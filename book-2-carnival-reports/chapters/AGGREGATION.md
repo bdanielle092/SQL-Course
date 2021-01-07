@@ -85,7 +85,7 @@ Consider a Student table that looks like this:
 
  ```sql
  -- Here we want to query a list of students grouped by their gpa
-SELECT student_name, count(gpa)
+SELECT student_name, gpa
 FROM Students GROUP BY gpa
  ```
 <br>
