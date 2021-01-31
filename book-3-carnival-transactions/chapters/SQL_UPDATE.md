@@ -25,8 +25,8 @@ WHERE [condition];
 Let's see an example of updating an email address for a customer.
 
 ```sql
--- UPDATE statement to change an customer
-UPDATE  public.customer
+-- UPDATE statement to change a customer
+UPDATE  public.customers
 SET email = 'juliasmith@gmail.com'
 WHERE customer_id = 67;
 ```

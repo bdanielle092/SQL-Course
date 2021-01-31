@@ -41,8 +41,8 @@ LANGUAGE plpgsql
 AS $$
 BEGIN
 
-INSERT INTO tbl VALUES (a);
-INSERT INTO tbl VALUES (b);
+INSERT INTO tbl(col) VALUES (a);
+INSERT INTO tbl(col) VALUES (b);
 
 END
 $$;
