@@ -14,6 +14,7 @@ Carnival was able to get by as a bootstrapped startup using Google Sheet and CSV
 | 👨‍👨‍👦‍👦 | [**_Team Project: Carnival Design_**](./chapters/CARNIVAL_DESIGN.md) |
 | 5 | [Mutable and Immutable Data](./chapters/MUTABILITY.md) |
 | 6 | [Importing Data](./chapters/IMPORTING.md) |
-| 7 | [Creating Tables &amp; Relationship Constraints](./chapters/CREATE_TABLES_COLUMNS.md) |
-| 8 | [Inserting Data](./chapters/INSERTS.md) |
+| 7 | [Saving time with database backups](./chapters/DATABASE_BACKUPS.md) |
+| 8 | [Creating Tables &amp; Relationship Constraints](./chapters/CREATE_TABLES_COLUMNS.md) |
+| 9 | [Inserting Data](./chapters/INSERTS.md) |
 | 👨‍👨‍👦‍👦 | [**_Team Project: Carnival Database_**](./chapters/CARNIVAL_DATABASE.md) |

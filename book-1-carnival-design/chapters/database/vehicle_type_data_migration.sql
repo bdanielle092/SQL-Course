@@ -4,7 +4,6 @@ SET body_type =  CASE
 					WHEN body_type = 'Truck' THEN '2'
 					WHEN body_type = 'Van' THEN '3'
 					WHEN body_type = 'SUV' THEN '4'
-					ELSE null
                  END ;
 				 
 UPDATE vehicleTypes 				 
@@ -14,7 +13,6 @@ SET      make = CASE
 					WHEN make = 'Nissan' THEN '3'
 					WHEN make = 'Ford' THEN '4'
 					WHEN make = 'Volkswagen' THEN '5'
-					ELSE null
 				  END ;
 				  
 UPDATE vehicleTypes 
@@ -35,5 +33,4 @@ SET     model =  CASE
 					WHEN model = 'Passat' THEN '14'
 					WHEN model = 'Atlas' THEN '15'
 					WHEN model = 'Transit-150 Cargo' THEN '16'
-					ELSE null
 				 END ;

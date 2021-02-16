@@ -27,7 +27,7 @@ Instead of hiring a SQL expert, Carnival decided to save money and assign a task
 
 [Download Monique's .sql file here](./database/carnival_db_schemas.sql), we will use it to create the carnival database table schemas. We'll see how she did!
 
-[Download ZIP file of Carnival CSVs](https://drive.google.com/file/d/1NB49uA87tXJCCT_pRQ2NYJo4mbx267qH/view?usp=sharing) 
+[Download Carnival CSVs](https://drive.google.com/file/d/1NB49uA87tXJCCT_pRQ2NYJo4mbx267qH/view?usp=sharing) 
 
 <br>
 
@@ -91,7 +91,7 @@ All of the tables schema information lives in the Schemas directory.
 
 Now that the database and tables are ready, Monique can import the actual data from Carnival's .csv files.
 
-[Download ZIP file of Carnival CSVs](./data/csv_files.zip) 
+[Download Carnival CSVs](https://drive.google.com/file/d/1NB49uA87tXJCCT_pRQ2NYJo4mbx267qH/view?usp=sharing) 
 
 Within the Schemas directory you will see a listing of the tables in the database. Right click on the Customers table and select Import/Export.
 

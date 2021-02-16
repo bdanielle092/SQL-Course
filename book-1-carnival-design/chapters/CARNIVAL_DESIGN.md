@@ -14,3 +14,4 @@ Now it’s time for you to design the database for Carnival. With your teammates
 1. Go to [Lucidchart Templates](https://app.lucidchart.com/documents#/templates?folder_id=home&browser=icon) and search for `ERD`.
 2. Click `Open Template` for the template named `Database ER diagram (crow's foot)` to get started.
 3. Be sure to click the `Share` button in the top right corner and share your ERD with your instructors.
+4. Use the screenshots of Carnival's CSV files in Chapter 2 - Getting the Data as your map for creating the entities in your ERD diagram.
