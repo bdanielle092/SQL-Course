@@ -6,4 +6,4 @@ Write transactions to handle the following scenarios:
 
 1. For the CX-5s and CX-9s in the inventory that have not been sold, change the year of the car to 2021 since we will be updating our stock of Mazdas. For all other unsold Mazdas, update the year to 2020. The newer Mazdas all have red and black interiors.
 
-1. The vehicle with VIN `KNDPB3A20D7558809` is about to be returned. Carnival has a pretty cool program where it offers the returned vehicle to the most recently hired employee at 70% of the cost it previously sold for. The most recent employee accepts this offer and will purchase the vehicle once it is returned.
+1. The vehicle with VIN `KNDPB3A20D7558809` is about to be returned. Carnival has a pretty cool program where it offers the returned vehicle to the most recently hired employee at 70% of the cost it previously sold for. The most recent employee accepts this offer and will purchase the vehicle once it is returned. The employee and dealership who sold the car originally will be on the new sales transaction.
